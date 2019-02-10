@@ -1,0 +1,77 @@
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width, initial-scale-1, shrink-to-fit-no">
+        <title>Grid - Bootstrap 4</title>
+        <link rel="stylesheet" href="css/bootstrap-flexbox.css">
+        <style>
+            .div-tw{                
+                border: 1px solid white;
+                background-color: #AB82FF;
+                text-align: center;   
+                font-weight: bold;             
+            }      
+
+            h2{
+                color: white;
+            }    
+        </style>
+    </head>
+    <body>
+        <div class="container" style="background-color: #551A8B;">            
+            <h2>Grid System</h2>    
+                <div class="row">
+                    <div class="col-md-12 col-sm-6 col-xs-4 div-tw">Coluna 1</div>
+                </div> 
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-4 div-tw">Coluna 1</div>
+                <div class="col-md-6 col-sm-6 col-xs-4 div-tw">Coluna 2</div>
+            </div>             
+            <div class="row">
+                <div class="col-md-4 col-sm-3 col-xs-2 div-tw">Coluna 1</div>
+                <div class="col-md-4 col-sm-3 col-xs-2 div-tw">Coluna 2</div>
+                <div class="col-md-4 col-sm-3 col-xs-2 div-tw">Coluna 3</div>
+            </div> 
+            <div class="row">
+                <div class="col-md-3 col-sm-2 col-xs-1 div-tw">Coluna 1</div>
+                <div class="col-md-3 col-sm-2 col-xs-1 div-tw">Coluna 2</div>
+                <div class="col-md-3 col-sm-2 col-xs-1 div-tw">Coluna 3</div>
+                <div class="col-md-3 col-sm-2 col-xs-1 div-tw">Coluna 4</div>
+            </div>
+
+            <h2>Offset</h2>       
+            <div class="row">
+                <div class="col-md-2 div-tw">Coluna 1</div>
+                <div class="Offset-md-8 col-md-2 div-tw">Coluna 2</div>
+            </div>   
+            
+            <h2>Push/Pull</h2>
+            <div class="row">
+                <div class="col-md-2 push-md-10 div-tw">Coluna 1</div>
+                <div class="col-md-10 pull-md-2 div-tw">Coluna 2</div>
+            </div>
+
+            <h2>Flexbox</h2>
+            <div class="row">
+                <div class="col-md div-tw">coluna 1</div>
+                <div class="col-md div-tw">coluna 2</div>
+                <div class="col-md div-tw">coluna 3</div>
+            </div>
+
+            <h2>Flexbox - Alinhamento Vertical</h2>
+            <div class="row flex-items-xs-bottom" style="height: 100px;">
+                <div class="col-md col-xs-3 flex-md-top div-tw">Coluna 1</div>
+                <div class="col-md col-xs-3 flex-md-middle div-tw">Coluna 2</div>
+                <div class="col-md col-xs-3 flex-md-bottom div-tw">Coluna 3</div>
+            </div>
+
+            <h2>Flexbox - Alinhamento Horizontal</h2>
+            <div class="row flex-items-md-center flex-items-xs-left">
+                <div class="col-md-4 col-xs-2 div-tw">Coluna 1</div>
+                <div class="col-md-4 col-xs-2 div-tw">Coluna 2</div>
+            </div>
+        </div>
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+    </body>
+</html>
